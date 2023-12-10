@@ -1,0 +1,28 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Resultado do Quiz</title>
+    
+</head>
+<body class="container_total">
+
+    <div class="container">
+        <h1>Resultado do Quiz</h1>
+    </div>
+    
+
+    <script>
+        // Extrair o parâmetro 'total' da URL
+        const params = new URLSearchParams(window.location.search);
+        const total = params.get('total');
+
+        // Exibir o total na página
+        document.body.innerHTML += `<p class="total">Total: ${total}</p>`;
+    </script>
+</body>
+</html>

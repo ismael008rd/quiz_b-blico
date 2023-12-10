@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400&family=Sarabun:ital,wght@0,200;0,300;0,500;1,100;1,200;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    font-family: 'Joti One', serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #CFE675;
+    height: 100px;
+}
+
+.perguntas{
+    width: 100%;
+    height: 80vh;
+    background-color: #B04599;
+    opacity: 0.8;
+}
+
+.questoes_pergunt{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pergunt{
+    max-width: 600px;
+    font-family: 'Joti One', serif;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    
+}
+.questoesalt{
+    max-width: 600px;
+    width: 80%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color:#71ACD7;
+    margin: 10px;
+    padding: 10px;
+
+}
+.questoesalt:hover{
+    color:white;
+    background-color: #082805;
+    cursor: pointer;
+  
+}
+
+.cont_btn{
+    padding-top: 50px;
+    padding-right: 20px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.btn_prox{
+    display: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    background-color: #421D1D;
+    font-size: 1rem;
+}
+
+footer{
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.correct{
+    max-width: 600px;
+    width: 80%;
+    font-weight: bold;
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+}
+.incorrect{
+    max-width: 600px;
+    width: 80%;
+    font-weight: bold;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+}
+.total{
+    display: flex;
+      text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Joti One', serif;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+.container_total{
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    background-color:#d7a1cb;
+}
+.container h1{
+    font-family: 'Joti One', serif;
+}
