@@ -51,7 +51,7 @@
 }
 .questoesalt:hover{
     color:white;
-    background-color: #082805;
+    border: 1px solid black;
     cursor: pointer;
   
 }
