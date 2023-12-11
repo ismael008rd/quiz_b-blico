@@ -45,10 +45,11 @@
     max-width: 600px;
     font-family: 'Poppins', sans-serif;
     width: 80%;
+    border-radius: 10px;
     font-size: 1.5em;
     font-weight: bold;
-    color: rgb(32, 6, 28);
-    background-color:#715eee;
+    color: rgb(82, 1, 70);
+    background-color:#7c68ff;
     margin: 10px;
     padding: 10px;
 
@@ -58,7 +59,7 @@ span{
    text-align: center;
 }
 .questoesalt:hover{
-    color:rgb(208, 204, 207);
+    color:rgb(221, 201, 216);
     transform: scale(1.1);
     cursor: pointer;
   
@@ -121,10 +122,11 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    border-radius: 10px;
     font-family: 'Joti One', serif;
     width: 300px;
     height: 200px;
-    background-color: red;
+    background-color: rgb(234, 135, 135);
 }
 .container_total{
     height: 100vh;
@@ -141,14 +143,15 @@ footer{
 
 .btn_jogar{
     margin-top: 30px;
-    padding: 10px;
-    background-color: blue;
+    padding: 30px;
+    background-color: rgb(193, 34, 218);
     color: white;
-    border-radius: 5px;
+    font-size: 20px;
+    border-radius: 15px;
     border: none;
 }
 
 .btn_jogar:hover{
     cursor: pointer;
-    background-color: rgb(48, 48, 195);
+    background-color: rgb(186, 10, 163);
 }

@@ -28,12 +28,36 @@ const perguntas = [
     correct: "Davi",
   },
   {
-    pergunta: "3. Qual dos nomes de Deus Moisés deveria dar aos israelitas, quando falasse de quem tinha lhe enviado?",
+    pergunta: "3) Qual dos nomes de Deus Moisés deveria dar aos israelitas, quando falasse de quem tinha lhe enviado?",
     perguntaA: "Elohim",
     perguntaB: "El Shadday",
     perguntaC: "Eu sou o que sou",
     perguntaD: "Eu sou o Senhor",
     correct: "Eu sou o que sou",
+  },
+  {
+    pergunta: "4) Sobre Samuel, o que não é verdade?",
+    perguntaA: "Sua mãe se chamava Ana",
+    perguntaB: "Ungiu 3 reis de Israel: José, Saul e Davi",
+    perguntaC: "Sucedeu o profeta Eli",
+    perguntaD: "Teve uma visão enquanto ainda era muito novo",
+    correct: "Ungiu 3 reis de Israel: José, Saul e Davi",
+  },
+  {
+    pergunta: "5) Que animal falou com Balaão?",
+    perguntaA: "jumenta",
+    perguntaB: "camelo",
+    perguntaC: "cordeiro",
+    perguntaD: "pombar",
+    correct: "jumenta",
+  },
+  {
+    pergunta: "6) Enquanto pastor de ovelhas, Davi protegeu seu rebanho de dois animais perigosos. Quais?",
+    perguntaA: "serpente e dromedário",
+    perguntaB: "urso e leão",
+    perguntaC: "cobra e lobo",
+    perguntaD: "urso e escorpião",
+    correct: "urso e leão",
   },
 ];
 

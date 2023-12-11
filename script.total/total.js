@@ -6,7 +6,7 @@ total.innerHTML = "agora sim papai";
 
 const score = localStorage.getItem("totalValue");
 
-total.innerHTML = `Total: ${score}`;
+total.innerHTML = `TOTAL: ${score}`;
 
 function JogarNovamente() {
   window.location.href = "index.html";
