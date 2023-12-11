@@ -18,7 +18,7 @@
 
 .perguntas{
     width: 100%;
-    height: 77vh;
+    height: 83vh;
     background-color: #B04599;
     opacity: 0.8;
 }
@@ -37,7 +37,7 @@
     width: 100%;
     font-weight: 600;
     padding: 20px;
-    color: rgb(27, 21, 137);
+    color: rgb(1, 1, 7);
     text-align: left;
     
 }
@@ -67,6 +67,7 @@ span{
 
 .cont_btn{
     padding-top: 20px;
+   
     padding-right: 20px;
     width: 100%;
     max-width: 600px;
