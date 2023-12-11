@@ -15,14 +15,10 @@
         <h1>Resultado do Quiz</h1>
     </div>
     
+      <button class="btn_jogar">Jogar novamente</button>
+      <p class="total"></p>
+    
 
-    <script>
-        // Extrair o parâmetro 'total' da URL
-        const params = new URLSearchParams(window.location.search);
-        const total = params.get('total');
-
-        // Exibir o total na página
-        document.body.innerHTML += `<p class="total">Total: ${total}</p>`;
-    </script>
+<script src="script.total/total.js"></script>
 </body>
 </html>

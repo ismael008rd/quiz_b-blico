@@ -18,7 +18,7 @@
 
 .perguntas{
     width: 100%;
-    height: 80vh;
+    height: 77vh;
     background-color: #B04599;
     opacity: 0.8;
 }
@@ -34,7 +34,7 @@
     max-width: 600px;
     font-family: 'Joti One', serif;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     color: white;
     text-align: left;
     
@@ -49,9 +49,13 @@
     padding: 10px;
 
 }
+
+span{
+   text-align: center;
+}
 .questoesalt:hover{
     color:white;
-    border: 1px solid black;
+    border: 1px solid rgb(51, 238, 157);
     cursor: pointer;
   
 }
@@ -80,6 +84,7 @@ footer{
     background-color: red;
     text-align: center;
     color: white;
+    height: 14vh;
     padding: 20px;
 }
 
@@ -102,12 +107,13 @@ footer{
 .total{
     display: flex;
       text-align: center;
+      margin-top: 30px;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     font-family: 'Joti One', serif;
     width: 300px;
-    height: 300px;
+    height: 200px;
     background-color: red;
 }
 .container_total{
@@ -121,4 +127,18 @@ footer{
 }
 .container h1{
     font-family: 'Joti One', serif;
+}
+
+.btn_jogar{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn_jogar:hover{
+    cursor: pointer;
+    background-color: rgb(48, 48, 195);
 }

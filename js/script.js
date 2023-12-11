@@ -6,6 +6,7 @@ const q4 = document.querySelector("#q4");
 const q5 = document.querySelector("#q5");
 const proximo = document.querySelector(".btn_prox");
 
+
 let indexPergunt = 0;
 let score = 0;
 
@@ -136,6 +137,11 @@ function proximoPerg() {
   pecorrer();
 }
 function mostrarTotal() {
+   localStorage.setItem('totalValue',score)
+
   console.log(score);
-  window.location.href = `total.html?total=${score}`;
+
+  window.location.href =`total.html`;
+
 }
+
