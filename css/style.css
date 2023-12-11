@@ -24,27 +24,31 @@
 }
 
 .questoes_pergunt{
-    padding-top: 80px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .pergunt{
+    font-size: 1.5em;
     max-width: 600px;
-    font-family: 'Joti One', serif;
+    font-family: 'Poppins', sans-serif;
     width: 100%;
+    font-weight: 600;
     padding: 20px;
-    color: white;
+    color: rgb(27, 21, 137);
     text-align: left;
     
 }
 .questoesalt{
     max-width: 600px;
+    font-family: 'Poppins', sans-serif;
     width: 80%;
+    font-size: 1.5em;
     font-weight: bold;
-    color: rgb(255, 255, 255);
-    background-color:#71ACD7;
+    color: rgb(32, 6, 28);
+    background-color:#715eee;
     margin: 10px;
     padding: 10px;
 
@@ -54,17 +58,18 @@ span{
    text-align: center;
 }
 .questoesalt:hover{
-    color:white;
-    border: 1px solid rgb(51, 238, 157);
+    color:rgb(208, 204, 207);
+    transform: scale(1.1);
     cursor: pointer;
   
 }
 
 .cont_btn{
-    padding-top: 50px;
+    padding-top: 20px;
     padding-right: 20px;
     width: 100%;
     max-width: 600px;
+   
     display: flex;
     flex-direction: column;
     align-items: end;
@@ -74,23 +79,27 @@ span{
     display: none;
     border: none;
     cursor: pointer;
+   
     color: white;
+    border-radius: 10px;
     padding: 10px;
-    background-color: #421D1D;
+    background-color: #32c849;
     font-size: 1rem;
 }
 
 footer{
-    background-color: red;
+    background-color: rgb(121, 17, 185);
     text-align: center;
+    font-family: 'Roboto', sans-serif;
     color: white;
-    height: 14vh;
+    height: 10vh;
     padding: 20px;
 }
 
 .correct{
     max-width: 600px;
     width: 80%;
+    color: white;
     font-weight: bold;
     background-color: green;
     margin: 10px;
@@ -99,6 +108,7 @@ footer{
 .incorrect{
     max-width: 600px;
     width: 80%;
+    color: white;
     font-weight: bold;
     background-color: red;
     margin: 10px;
